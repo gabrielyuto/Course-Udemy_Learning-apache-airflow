@@ -5843,3 +5843,80 @@
 [2024-01-12T12:32:46.258+0000] {logging_mixin.py:137} INFO - [2024-01-12T12:32:46.258+0000] {dag.py:2690} INFO - Sync 1 DAGs
 [2024-01-12T12:32:46.269+0000] {logging_mixin.py:137} INFO - [2024-01-12T12:32:46.269+0000] {dag.py:3441} INFO - Setting next_dagrun for terceira_dag to None, run_after=None
 [2024-01-12T12:32:46.276+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/3-terceira-dag.py took 0.040 seconds
+[2024-01-12T12:32:51.555+0000] {processor.py:153} INFO - Started process (PID=1171) to work on /opt/airflow/dags/3-terceira-dag.py
+[2024-01-12T12:32:51.555+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/3-terceira-dag.py for tasks to queue
+[2024-01-12T12:32:51.556+0000] {logging_mixin.py:137} INFO - [2024-01-12T12:32:51.556+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/3-terceira-dag.py
+[2024-01-12T12:32:51.564+0000] {processor.py:753} INFO - DAG(s) dict_keys(['terceira_dag']) retrieved from /opt/airflow/dags/3-terceira-dag.py
+[2024-01-12T12:32:51.577+0000] {logging_mixin.py:137} INFO - [2024-01-12T12:32:51.576+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-01-12T12:32:51.590+0000] {logging_mixin.py:137} INFO - [2024-01-12T12:32:51.589+0000] {dag.py:3441} INFO - Setting next_dagrun for terceira_dag to None, run_after=None
+[2024-01-12T12:32:51.599+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/3-terceira-dag.py took 0.046 seconds
+[2024-01-12T12:32:56.975+0000] {processor.py:153} INFO - Started process (PID=1187) to work on /opt/airflow/dags/3-terceira-dag.py
+[2024-01-12T12:32:56.976+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/3-terceira-dag.py for tasks to queue
+[2024-01-12T12:32:56.976+0000] {logging_mixin.py:137} INFO - [2024-01-12T12:32:56.976+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/3-terceira-dag.py
+[2024-01-12T12:32:56.984+0000] {processor.py:753} INFO - DAG(s) dict_keys(['terceira_dag']) retrieved from /opt/airflow/dags/3-terceira-dag.py
+[2024-01-12T12:32:56.995+0000] {logging_mixin.py:137} INFO - [2024-01-12T12:32:56.995+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-01-12T12:32:57.005+0000] {logging_mixin.py:137} INFO - [2024-01-12T12:32:57.005+0000] {dag.py:3441} INFO - Setting next_dagrun for terceira_dag to None, run_after=None
+[2024-01-12T12:32:57.013+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/3-terceira-dag.py took 0.039 seconds
+[2024-01-12T12:33:02.322+0000] {processor.py:153} INFO - Started process (PID=1196) to work on /opt/airflow/dags/3-terceira-dag.py
+[2024-01-12T12:33:02.322+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/3-terceira-dag.py for tasks to queue
+[2024-01-12T12:33:02.323+0000] {logging_mixin.py:137} INFO - [2024-01-12T12:33:02.323+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/3-terceira-dag.py
+[2024-01-12T12:33:02.330+0000] {processor.py:753} INFO - DAG(s) dict_keys(['terceira_dag']) retrieved from /opt/airflow/dags/3-terceira-dag.py
+[2024-01-12T12:33:02.342+0000] {logging_mixin.py:137} INFO - [2024-01-12T12:33:02.342+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-01-12T12:33:02.353+0000] {logging_mixin.py:137} INFO - [2024-01-12T12:33:02.353+0000] {dag.py:3441} INFO - Setting next_dagrun for terceira_dag to None, run_after=None
+[2024-01-12T12:33:02.362+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/3-terceira-dag.py took 0.042 seconds
+[2024-01-12T12:33:07.670+0000] {processor.py:153} INFO - Started process (PID=1221) to work on /opt/airflow/dags/3-terceira-dag.py
+[2024-01-12T12:33:07.671+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/3-terceira-dag.py for tasks to queue
+[2024-01-12T12:33:07.671+0000] {logging_mixin.py:137} INFO - [2024-01-12T12:33:07.671+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/3-terceira-dag.py
+[2024-01-12T12:33:07.679+0000] {processor.py:753} INFO - DAG(s) dict_keys(['terceira_dag']) retrieved from /opt/airflow/dags/3-terceira-dag.py
+[2024-01-12T12:33:07.689+0000] {logging_mixin.py:137} INFO - [2024-01-12T12:33:07.689+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-01-12T12:33:07.700+0000] {logging_mixin.py:137} INFO - [2024-01-12T12:33:07.700+0000] {dag.py:3441} INFO - Setting next_dagrun for terceira_dag to None, run_after=None
+[2024-01-12T12:33:07.707+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/3-terceira-dag.py took 0.038 seconds
+[2024-01-12T12:33:13.048+0000] {processor.py:153} INFO - Started process (PID=1230) to work on /opt/airflow/dags/3-terceira-dag.py
+[2024-01-12T12:33:13.048+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/3-terceira-dag.py for tasks to queue
+[2024-01-12T12:33:13.049+0000] {logging_mixin.py:137} INFO - [2024-01-12T12:33:13.049+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/3-terceira-dag.py
+[2024-01-12T12:33:13.057+0000] {processor.py:753} INFO - DAG(s) dict_keys(['terceira_dag']) retrieved from /opt/airflow/dags/3-terceira-dag.py
+[2024-01-12T12:33:13.068+0000] {logging_mixin.py:137} INFO - [2024-01-12T12:33:13.068+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-01-12T12:33:13.085+0000] {logging_mixin.py:137} INFO - [2024-01-12T12:33:13.085+0000] {dag.py:3441} INFO - Setting next_dagrun for terceira_dag to None, run_after=None
+[2024-01-12T12:33:13.093+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/3-terceira-dag.py took 0.047 seconds
+[2024-01-12T12:33:18.385+0000] {processor.py:153} INFO - Started process (PID=1255) to work on /opt/airflow/dags/3-terceira-dag.py
+[2024-01-12T12:33:18.385+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/3-terceira-dag.py for tasks to queue
+[2024-01-12T12:33:18.386+0000] {logging_mixin.py:137} INFO - [2024-01-12T12:33:18.385+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/3-terceira-dag.py
+[2024-01-12T12:33:18.393+0000] {processor.py:753} INFO - DAG(s) dict_keys(['terceira_dag']) retrieved from /opt/airflow/dags/3-terceira-dag.py
+[2024-01-12T12:33:18.403+0000] {logging_mixin.py:137} INFO - [2024-01-12T12:33:18.403+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-01-12T12:33:18.413+0000] {logging_mixin.py:137} INFO - [2024-01-12T12:33:18.413+0000] {dag.py:3441} INFO - Setting next_dagrun for terceira_dag to None, run_after=None
+[2024-01-12T12:33:18.420+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/3-terceira-dag.py took 0.037 seconds
+[2024-01-12T12:33:23.718+0000] {processor.py:153} INFO - Started process (PID=1264) to work on /opt/airflow/dags/3-terceira-dag.py
+[2024-01-12T12:33:23.719+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/3-terceira-dag.py for tasks to queue
+[2024-01-12T12:33:23.719+0000] {logging_mixin.py:137} INFO - [2024-01-12T12:33:23.719+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/3-terceira-dag.py
+[2024-01-12T12:33:23.727+0000] {processor.py:753} INFO - DAG(s) dict_keys(['terceira_dag']) retrieved from /opt/airflow/dags/3-terceira-dag.py
+[2024-01-12T12:33:23.738+0000] {logging_mixin.py:137} INFO - [2024-01-12T12:33:23.738+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-01-12T12:33:23.749+0000] {logging_mixin.py:137} INFO - [2024-01-12T12:33:23.749+0000] {dag.py:3441} INFO - Setting next_dagrun for terceira_dag to None, run_after=None
+[2024-01-12T12:33:23.757+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/3-terceira-dag.py took 0.040 seconds
+[2024-01-12T12:33:29.057+0000] {processor.py:153} INFO - Started process (PID=1289) to work on /opt/airflow/dags/3-terceira-dag.py
+[2024-01-12T12:33:29.058+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/3-terceira-dag.py for tasks to queue
+[2024-01-12T12:33:29.058+0000] {logging_mixin.py:137} INFO - [2024-01-12T12:33:29.058+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/3-terceira-dag.py
+[2024-01-12T12:33:29.066+0000] {processor.py:753} INFO - DAG(s) dict_keys(['terceira_dag']) retrieved from /opt/airflow/dags/3-terceira-dag.py
+[2024-01-12T12:33:29.077+0000] {logging_mixin.py:137} INFO - [2024-01-12T12:33:29.077+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-01-12T12:33:29.089+0000] {logging_mixin.py:137} INFO - [2024-01-12T12:33:29.088+0000] {dag.py:3441} INFO - Setting next_dagrun for terceira_dag to None, run_after=None
+[2024-01-12T12:33:29.096+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/3-terceira-dag.py took 0.040 seconds
+[2024-01-12T12:33:34.447+0000] {processor.py:153} INFO - Started process (PID=1298) to work on /opt/airflow/dags/3-terceira-dag.py
+[2024-01-12T12:33:34.447+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/3-terceira-dag.py for tasks to queue
+[2024-01-12T12:33:34.447+0000] {logging_mixin.py:137} INFO - [2024-01-12T12:33:34.447+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/3-terceira-dag.py
+[2024-01-12T12:33:34.455+0000] {processor.py:753} INFO - DAG(s) dict_keys(['terceira_dag']) retrieved from /opt/airflow/dags/3-terceira-dag.py
+[2024-01-12T12:33:34.466+0000] {logging_mixin.py:137} INFO - [2024-01-12T12:33:34.466+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-01-12T12:33:34.476+0000] {logging_mixin.py:137} INFO - [2024-01-12T12:33:34.476+0000] {dag.py:3441} INFO - Setting next_dagrun for terceira_dag to None, run_after=None
+[2024-01-12T12:33:34.483+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/3-terceira-dag.py took 0.038 seconds
+[2024-01-12T12:33:39.791+0000] {processor.py:153} INFO - Started process (PID=1323) to work on /opt/airflow/dags/3-terceira-dag.py
+[2024-01-12T12:33:39.791+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/3-terceira-dag.py for tasks to queue
+[2024-01-12T12:33:39.792+0000] {logging_mixin.py:137} INFO - [2024-01-12T12:33:39.792+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/3-terceira-dag.py
+[2024-01-12T12:33:39.799+0000] {processor.py:753} INFO - DAG(s) dict_keys(['terceira_dag']) retrieved from /opt/airflow/dags/3-terceira-dag.py
+[2024-01-12T12:33:39.811+0000] {logging_mixin.py:137} INFO - [2024-01-12T12:33:39.811+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-01-12T12:33:39.822+0000] {logging_mixin.py:137} INFO - [2024-01-12T12:33:39.822+0000] {dag.py:3441} INFO - Setting next_dagrun for terceira_dag to None, run_after=None
+[2024-01-12T12:33:39.830+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/3-terceira-dag.py took 0.041 seconds
+[2024-01-12T12:33:45.141+0000] {processor.py:153} INFO - Started process (PID=1332) to work on /opt/airflow/dags/3-terceira-dag.py
+[2024-01-12T12:33:45.141+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/3-terceira-dag.py for tasks to queue
+[2024-01-12T12:33:45.142+0000] {logging_mixin.py:137} INFO - [2024-01-12T12:33:45.142+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/3-terceira-dag.py
+[2024-01-12T12:33:45.149+0000] {processor.py:753} INFO - DAG(s) dict_keys(['terceira_dag']) retrieved from /opt/airflow/dags/3-terceira-dag.py
+[2024-01-12T12:33:45.160+0000] {logging_mixin.py:137} INFO - [2024-01-12T12:33:45.160+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-01-12T12:33:45.171+0000] {logging_mixin.py:137} INFO - [2024-01-12T12:33:45.171+0000] {dag.py:3441} INFO - Setting next_dagrun for terceira_dag to None, run_after=None
+[2024-01-12T12:33:45.178+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/3-terceira-dag.py took 0.039 seconds
