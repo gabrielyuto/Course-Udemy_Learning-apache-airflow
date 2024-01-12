@@ -1,8 +1,8 @@
 # Informações
-Curso: "Domine Apache Airflow: Pipelines de Engenharia de Dados"
-Professor: Fernando Amaral
-Plataforma: Udemy
-Disponível em: https://www.udemy.com/course/domine-apache-airflow/
+- Curso: "Domine Apache Airflow: Pipelines de Engenharia de Dados"
+- Professor: Fernando Amaral
+- Plataforma: Udemy
+- Disponível em: https://www.udemy.com/course/domine-apache-airflow/
 
 # Apache Airflow
 Apache Airflow é uma plataforma de gerenciamento de fluxo de trabalho de código aberto para pipelines de engenharia de dados. Começou no Airbnb em outubro de 2014 como uma solução para gerenciar os fluxos de trabalho cada vez mais complexos da empresa. A criação do Airflow permitiu que o Airbnb criasse e agendasse programaticamente seus fluxos de trabalho e os monitorasse por meio da interface de usuário integrada do Airflow . Desde o início, o projeto foi tornado de código aberto, tornando-se um projeto Apache Incubator em março de 2016 e um projeto de nível superior da Apache Software Foundation em janeiro de 2019.
