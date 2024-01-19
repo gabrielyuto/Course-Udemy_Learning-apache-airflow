@@ -1,0 +1,294 @@
+[2024-01-19T19:24:17.157+0000] {processor.py:153} INFO - Started process (PID=49118) to work on /opt/airflow/dags/06-trigger-dag.py
+[2024-01-19T19:24:17.157+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/06-trigger-dag.py for tasks to queue
+[2024-01-19T19:24:17.158+0000] {logging_mixin.py:137} INFO - [2024-01-19T19:24:17.158+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/06-trigger-dag.py
+[2024-01-19T19:24:17.171+0000] {processor.py:753} INFO - DAG(s) dict_keys(['triggerdagfailed']) retrieved from /opt/airflow/dags/06-trigger-dag.py
+[2024-01-19T19:24:17.201+0000] {logging_mixin.py:137} INFO - [2024-01-19T19:24:17.201+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-01-19T19:24:17.212+0000] {logging_mixin.py:137} INFO - [2024-01-19T19:24:17.212+0000] {dag.py:3441} INFO - Setting next_dagrun for triggerdagfailed to None, run_after=None
+[2024-01-19T19:24:17.221+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/06-trigger-dag.py took 0.067 seconds
+[2024-01-19T19:24:24.193+0000] {processor.py:153} INFO - Started process (PID=49157) to work on /opt/airflow/dags/06-trigger-dag.py
+[2024-01-19T19:24:24.193+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/06-trigger-dag.py for tasks to queue
+[2024-01-19T19:24:24.194+0000] {logging_mixin.py:137} INFO - [2024-01-19T19:24:24.194+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/06-trigger-dag.py
+[2024-01-19T19:24:24.203+0000] {processor.py:753} INFO - DAG(s) dict_keys(['triggerdagfailed']) retrieved from /opt/airflow/dags/06-trigger-dag.py
+[2024-01-19T19:24:24.210+0000] {logging_mixin.py:137} INFO - [2024-01-19T19:24:24.209+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-01-19T19:24:24.222+0000] {logging_mixin.py:137} INFO - [2024-01-19T19:24:24.222+0000] {dag.py:3441} INFO - Setting next_dagrun for triggerdagfailed to None, run_after=None
+[2024-01-19T19:24:24.230+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/06-trigger-dag.py took 0.039 seconds
+[2024-01-19T19:24:30.685+0000] {processor.py:153} INFO - Started process (PID=49197) to work on /opt/airflow/dags/06-trigger-dag.py
+[2024-01-19T19:24:30.686+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/06-trigger-dag.py for tasks to queue
+[2024-01-19T19:24:30.686+0000] {logging_mixin.py:137} INFO - [2024-01-19T19:24:30.686+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/06-trigger-dag.py
+[2024-01-19T19:24:30.695+0000] {processor.py:753} INFO - DAG(s) dict_keys(['triggerdagfailed']) retrieved from /opt/airflow/dags/06-trigger-dag.py
+[2024-01-19T19:24:30.702+0000] {logging_mixin.py:137} INFO - [2024-01-19T19:24:30.702+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-01-19T19:24:30.713+0000] {logging_mixin.py:137} INFO - [2024-01-19T19:24:30.713+0000] {dag.py:3441} INFO - Setting next_dagrun for triggerdagfailed to None, run_after=None
+[2024-01-19T19:24:30.721+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/06-trigger-dag.py took 0.037 seconds
+[2024-01-19T19:24:37.676+0000] {processor.py:153} INFO - Started process (PID=49238) to work on /opt/airflow/dags/06-trigger-dag.py
+[2024-01-19T19:24:37.677+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/06-trigger-dag.py for tasks to queue
+[2024-01-19T19:24:37.678+0000] {logging_mixin.py:137} INFO - [2024-01-19T19:24:37.678+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/06-trigger-dag.py
+[2024-01-19T19:24:37.691+0000] {processor.py:753} INFO - DAG(s) dict_keys(['triggerdagfailed']) retrieved from /opt/airflow/dags/06-trigger-dag.py
+[2024-01-19T19:24:37.704+0000] {logging_mixin.py:137} INFO - [2024-01-19T19:24:37.704+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-01-19T19:24:37.725+0000] {logging_mixin.py:137} INFO - [2024-01-19T19:24:37.724+0000] {dag.py:3441} INFO - Setting next_dagrun for triggerdagfailed to None, run_after=None
+[2024-01-19T19:24:37.743+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/06-trigger-dag.py took 0.073 seconds
+[2024-01-19T19:24:43.462+0000] {processor.py:153} INFO - Started process (PID=49264) to work on /opt/airflow/dags/06-trigger-dag.py
+[2024-01-19T19:24:43.463+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/06-trigger-dag.py for tasks to queue
+[2024-01-19T19:24:43.463+0000] {logging_mixin.py:137} INFO - [2024-01-19T19:24:43.463+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/06-trigger-dag.py
+[2024-01-19T19:24:43.473+0000] {processor.py:753} INFO - DAG(s) dict_keys(['triggerdagfailed']) retrieved from /opt/airflow/dags/06-trigger-dag.py
+[2024-01-19T19:24:43.481+0000] {logging_mixin.py:137} INFO - [2024-01-19T19:24:43.481+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-01-19T19:24:43.493+0000] {logging_mixin.py:137} INFO - [2024-01-19T19:24:43.493+0000] {dag.py:3441} INFO - Setting next_dagrun for triggerdagfailed to None, run_after=None
+[2024-01-19T19:24:43.500+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/06-trigger-dag.py took 0.040 seconds
+[2024-01-19T19:24:49.170+0000] {processor.py:153} INFO - Started process (PID=49305) to work on /opt/airflow/dags/06-trigger-dag.py
+[2024-01-19T19:24:49.171+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/06-trigger-dag.py for tasks to queue
+[2024-01-19T19:24:49.171+0000] {logging_mixin.py:137} INFO - [2024-01-19T19:24:49.171+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/06-trigger-dag.py
+[2024-01-19T19:24:49.182+0000] {processor.py:753} INFO - DAG(s) dict_keys(['triggerdagfailed']) retrieved from /opt/airflow/dags/06-trigger-dag.py
+[2024-01-19T19:24:49.197+0000] {logging_mixin.py:137} INFO - [2024-01-19T19:24:49.197+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-01-19T19:24:49.211+0000] {logging_mixin.py:137} INFO - [2024-01-19T19:24:49.211+0000] {dag.py:3441} INFO - Setting next_dagrun for triggerdagfailed to None, run_after=None
+[2024-01-19T19:24:49.220+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/06-trigger-dag.py took 0.052 seconds
+[2024-01-19T19:24:54.636+0000] {processor.py:153} INFO - Started process (PID=49330) to work on /opt/airflow/dags/06-trigger-dag.py
+[2024-01-19T19:24:54.637+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/06-trigger-dag.py for tasks to queue
+[2024-01-19T19:24:54.637+0000] {logging_mixin.py:137} INFO - [2024-01-19T19:24:54.637+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/06-trigger-dag.py
+[2024-01-19T19:24:54.646+0000] {processor.py:753} INFO - DAG(s) dict_keys(['triggerdagfailed']) retrieved from /opt/airflow/dags/06-trigger-dag.py
+[2024-01-19T19:24:54.660+0000] {logging_mixin.py:137} INFO - [2024-01-19T19:24:54.660+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-01-19T19:24:54.674+0000] {logging_mixin.py:137} INFO - [2024-01-19T19:24:54.673+0000] {dag.py:3441} INFO - Setting next_dagrun for triggerdagfailed to None, run_after=None
+[2024-01-19T19:24:54.687+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/06-trigger-dag.py took 0.053 seconds
+[2024-01-19T19:25:01.813+0000] {processor.py:153} INFO - Started process (PID=49371) to work on /opt/airflow/dags/06-trigger-dag.py
+[2024-01-19T19:25:01.814+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/06-trigger-dag.py for tasks to queue
+[2024-01-19T19:25:01.814+0000] {logging_mixin.py:137} INFO - [2024-01-19T19:25:01.814+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/06-trigger-dag.py
+[2024-01-19T19:25:01.827+0000] {processor.py:753} INFO - DAG(s) dict_keys(['triggerdagfailed']) retrieved from /opt/airflow/dags/06-trigger-dag.py
+[2024-01-19T19:25:01.843+0000] {logging_mixin.py:137} INFO - [2024-01-19T19:25:01.842+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-01-19T19:25:01.855+0000] {logging_mixin.py:137} INFO - [2024-01-19T19:25:01.855+0000] {dag.py:3441} INFO - Setting next_dagrun for triggerdagfailed to None, run_after=None
+[2024-01-19T19:25:01.863+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/06-trigger-dag.py took 0.053 seconds
+[2024-01-19T19:25:07.476+0000] {processor.py:153} INFO - Started process (PID=49396) to work on /opt/airflow/dags/06-trigger-dag.py
+[2024-01-19T19:25:07.476+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/06-trigger-dag.py for tasks to queue
+[2024-01-19T19:25:07.477+0000] {logging_mixin.py:137} INFO - [2024-01-19T19:25:07.477+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/06-trigger-dag.py
+[2024-01-19T19:25:07.486+0000] {processor.py:753} INFO - DAG(s) dict_keys(['triggerdagfailed']) retrieved from /opt/airflow/dags/06-trigger-dag.py
+[2024-01-19T19:25:07.498+0000] {logging_mixin.py:137} INFO - [2024-01-19T19:25:07.498+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-01-19T19:25:07.510+0000] {logging_mixin.py:137} INFO - [2024-01-19T19:25:07.510+0000] {dag.py:3441} INFO - Setting next_dagrun for triggerdagfailed to None, run_after=None
+[2024-01-19T19:25:07.518+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/06-trigger-dag.py took 0.045 seconds
+[2024-01-19T19:25:13.713+0000] {processor.py:153} INFO - Started process (PID=49437) to work on /opt/airflow/dags/06-trigger-dag.py
+[2024-01-19T19:25:13.714+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/06-trigger-dag.py for tasks to queue
+[2024-01-19T19:25:13.715+0000] {logging_mixin.py:137} INFO - [2024-01-19T19:25:13.715+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/06-trigger-dag.py
+[2024-01-19T19:25:13.727+0000] {processor.py:753} INFO - DAG(s) dict_keys(['triggerdagfailed']) retrieved from /opt/airflow/dags/06-trigger-dag.py
+[2024-01-19T19:25:13.749+0000] {logging_mixin.py:137} INFO - [2024-01-19T19:25:13.748+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-01-19T19:25:13.772+0000] {logging_mixin.py:137} INFO - [2024-01-19T19:25:13.772+0000] {dag.py:3441} INFO - Setting next_dagrun for triggerdagfailed to None, run_after=None
+[2024-01-19T19:25:13.792+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/06-trigger-dag.py took 0.082 seconds
+[2024-01-19T19:25:19.091+0000] {processor.py:153} INFO - Started process (PID=49462) to work on /opt/airflow/dags/06-trigger-dag.py
+[2024-01-19T19:25:19.092+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/06-trigger-dag.py for tasks to queue
+[2024-01-19T19:25:19.092+0000] {logging_mixin.py:137} INFO - [2024-01-19T19:25:19.092+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/06-trigger-dag.py
+[2024-01-19T19:25:19.101+0000] {processor.py:753} INFO - DAG(s) dict_keys(['triggerdagfailed']) retrieved from /opt/airflow/dags/06-trigger-dag.py
+[2024-01-19T19:25:19.113+0000] {logging_mixin.py:137} INFO - [2024-01-19T19:25:19.113+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-01-19T19:25:19.125+0000] {logging_mixin.py:137} INFO - [2024-01-19T19:25:19.125+0000] {dag.py:3441} INFO - Setting next_dagrun for triggerdagfailed to None, run_after=None
+[2024-01-19T19:25:19.133+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/06-trigger-dag.py took 0.045 seconds
+[2024-01-19T19:25:25.944+0000] {processor.py:153} INFO - Started process (PID=49503) to work on /opt/airflow/dags/06-trigger-dag.py
+[2024-01-19T19:25:25.944+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/06-trigger-dag.py for tasks to queue
+[2024-01-19T19:25:25.945+0000] {logging_mixin.py:137} INFO - [2024-01-19T19:25:25.945+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/06-trigger-dag.py
+[2024-01-19T19:25:25.952+0000] {processor.py:753} INFO - DAG(s) dict_keys(['triggerdagfailed']) retrieved from /opt/airflow/dags/06-trigger-dag.py
+[2024-01-19T19:25:25.964+0000] {logging_mixin.py:137} INFO - [2024-01-19T19:25:25.964+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-01-19T19:25:25.976+0000] {logging_mixin.py:137} INFO - [2024-01-19T19:25:25.976+0000] {dag.py:3441} INFO - Setting next_dagrun for triggerdagfailed to None, run_after=None
+[2024-01-19T19:25:25.985+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/06-trigger-dag.py took 0.043 seconds
+[2024-01-19T19:25:31.403+0000] {processor.py:153} INFO - Started process (PID=49528) to work on /opt/airflow/dags/06-trigger-dag.py
+[2024-01-19T19:25:31.403+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/06-trigger-dag.py for tasks to queue
+[2024-01-19T19:25:31.404+0000] {logging_mixin.py:137} INFO - [2024-01-19T19:25:31.403+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/06-trigger-dag.py
+[2024-01-19T19:25:31.411+0000] {processor.py:753} INFO - DAG(s) dict_keys(['triggerdagfailed']) retrieved from /opt/airflow/dags/06-trigger-dag.py
+[2024-01-19T19:25:31.423+0000] {logging_mixin.py:137} INFO - [2024-01-19T19:25:31.423+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-01-19T19:25:31.434+0000] {logging_mixin.py:137} INFO - [2024-01-19T19:25:31.434+0000] {dag.py:3441} INFO - Setting next_dagrun for triggerdagfailed to None, run_after=None
+[2024-01-19T19:25:31.441+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/06-trigger-dag.py took 0.040 seconds
+[2024-01-19T19:25:37.285+0000] {processor.py:153} INFO - Started process (PID=49570) to work on /opt/airflow/dags/06-trigger-dag.py
+[2024-01-19T19:25:37.285+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/06-trigger-dag.py for tasks to queue
+[2024-01-19T19:25:37.286+0000] {logging_mixin.py:137} INFO - [2024-01-19T19:25:37.286+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/06-trigger-dag.py
+[2024-01-19T19:25:37.302+0000] {processor.py:753} INFO - DAG(s) dict_keys(['triggerdagfailed']) retrieved from /opt/airflow/dags/06-trigger-dag.py
+[2024-01-19T19:25:37.316+0000] {logging_mixin.py:137} INFO - [2024-01-19T19:25:37.316+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-01-19T19:25:37.342+0000] {logging_mixin.py:137} INFO - [2024-01-19T19:25:37.342+0000] {dag.py:3441} INFO - Setting next_dagrun for triggerdagfailed to None, run_after=None
+[2024-01-19T19:25:37.352+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/06-trigger-dag.py took 0.070 seconds
+[2024-01-19T19:25:42.894+0000] {processor.py:153} INFO - Started process (PID=49595) to work on /opt/airflow/dags/06-trigger-dag.py
+[2024-01-19T19:25:42.895+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/06-trigger-dag.py for tasks to queue
+[2024-01-19T19:25:42.895+0000] {logging_mixin.py:137} INFO - [2024-01-19T19:25:42.895+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/06-trigger-dag.py
+[2024-01-19T19:25:42.904+0000] {processor.py:753} INFO - DAG(s) dict_keys(['triggerdagfailed']) retrieved from /opt/airflow/dags/06-trigger-dag.py
+[2024-01-19T19:25:42.917+0000] {logging_mixin.py:137} INFO - [2024-01-19T19:25:42.917+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-01-19T19:25:42.928+0000] {logging_mixin.py:137} INFO - [2024-01-19T19:25:42.928+0000] {dag.py:3441} INFO - Setting next_dagrun for triggerdagfailed to None, run_after=None
+[2024-01-19T19:25:42.935+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/06-trigger-dag.py took 0.043 seconds
+[2024-01-19T19:25:48.884+0000] {processor.py:153} INFO - Started process (PID=49636) to work on /opt/airflow/dags/06-trigger-dag.py
+[2024-01-19T19:25:48.884+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/06-trigger-dag.py for tasks to queue
+[2024-01-19T19:25:48.885+0000] {logging_mixin.py:137} INFO - [2024-01-19T19:25:48.885+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/06-trigger-dag.py
+[2024-01-19T19:25:48.894+0000] {processor.py:753} INFO - DAG(s) dict_keys(['triggerdagfailed']) retrieved from /opt/airflow/dags/06-trigger-dag.py
+[2024-01-19T19:25:48.911+0000] {logging_mixin.py:137} INFO - [2024-01-19T19:25:48.911+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-01-19T19:25:48.926+0000] {logging_mixin.py:137} INFO - [2024-01-19T19:25:48.926+0000] {dag.py:3441} INFO - Setting next_dagrun for triggerdagfailed to None, run_after=None
+[2024-01-19T19:25:48.937+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/06-trigger-dag.py took 0.056 seconds
+[2024-01-19T19:25:54.575+0000] {processor.py:153} INFO - Started process (PID=49661) to work on /opt/airflow/dags/06-trigger-dag.py
+[2024-01-19T19:25:54.576+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/06-trigger-dag.py for tasks to queue
+[2024-01-19T19:25:54.576+0000] {logging_mixin.py:137} INFO - [2024-01-19T19:25:54.576+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/06-trigger-dag.py
+[2024-01-19T19:25:54.584+0000] {processor.py:753} INFO - DAG(s) dict_keys(['triggerdagfailed']) retrieved from /opt/airflow/dags/06-trigger-dag.py
+[2024-01-19T19:25:54.596+0000] {logging_mixin.py:137} INFO - [2024-01-19T19:25:54.596+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-01-19T19:25:54.607+0000] {logging_mixin.py:137} INFO - [2024-01-19T19:25:54.607+0000] {dag.py:3441} INFO - Setting next_dagrun for triggerdagfailed to None, run_after=None
+[2024-01-19T19:25:54.614+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/06-trigger-dag.py took 0.040 seconds
+[2024-01-19T19:26:00.486+0000] {processor.py:153} INFO - Started process (PID=49702) to work on /opt/airflow/dags/06-trigger-dag.py
+[2024-01-19T19:26:00.487+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/06-trigger-dag.py for tasks to queue
+[2024-01-19T19:26:00.488+0000] {logging_mixin.py:137} INFO - [2024-01-19T19:26:00.488+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/06-trigger-dag.py
+[2024-01-19T19:26:00.499+0000] {processor.py:753} INFO - DAG(s) dict_keys(['triggerdagfailed']) retrieved from /opt/airflow/dags/06-trigger-dag.py
+[2024-01-19T19:26:00.519+0000] {logging_mixin.py:137} INFO - [2024-01-19T19:26:00.519+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-01-19T19:26:00.532+0000] {logging_mixin.py:137} INFO - [2024-01-19T19:26:00.532+0000] {dag.py:3441} INFO - Setting next_dagrun for triggerdagfailed to None, run_after=None
+[2024-01-19T19:26:00.541+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/06-trigger-dag.py took 0.057 seconds
+[2024-01-19T19:26:06.038+0000] {processor.py:153} INFO - Started process (PID=49727) to work on /opt/airflow/dags/06-trigger-dag.py
+[2024-01-19T19:26:06.039+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/06-trigger-dag.py for tasks to queue
+[2024-01-19T19:26:06.040+0000] {logging_mixin.py:137} INFO - [2024-01-19T19:26:06.040+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/06-trigger-dag.py
+[2024-01-19T19:26:06.053+0000] {processor.py:753} INFO - DAG(s) dict_keys(['triggerdagfailed']) retrieved from /opt/airflow/dags/06-trigger-dag.py
+[2024-01-19T19:26:06.068+0000] {logging_mixin.py:137} INFO - [2024-01-19T19:26:06.068+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-01-19T19:26:06.080+0000] {logging_mixin.py:137} INFO - [2024-01-19T19:26:06.080+0000] {dag.py:3441} INFO - Setting next_dagrun for triggerdagfailed to None, run_after=None
+[2024-01-19T19:26:06.087+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/06-trigger-dag.py took 0.052 seconds
+[2024-01-19T19:26:11.938+0000] {processor.py:153} INFO - Started process (PID=49768) to work on /opt/airflow/dags/06-trigger-dag.py
+[2024-01-19T19:26:11.938+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/06-trigger-dag.py for tasks to queue
+[2024-01-19T19:26:11.939+0000] {logging_mixin.py:137} INFO - [2024-01-19T19:26:11.939+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/06-trigger-dag.py
+[2024-01-19T19:26:11.948+0000] {processor.py:753} INFO - DAG(s) dict_keys(['triggerdagfailed']) retrieved from /opt/airflow/dags/06-trigger-dag.py
+[2024-01-19T19:26:11.961+0000] {logging_mixin.py:137} INFO - [2024-01-19T19:26:11.961+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-01-19T19:26:11.975+0000] {logging_mixin.py:137} INFO - [2024-01-19T19:26:11.975+0000] {dag.py:3441} INFO - Setting next_dagrun for triggerdagfailed to None, run_after=None
+[2024-01-19T19:26:11.982+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/06-trigger-dag.py took 0.047 seconds
+[2024-01-19T19:26:17.531+0000] {processor.py:153} INFO - Started process (PID=49793) to work on /opt/airflow/dags/06-trigger-dag.py
+[2024-01-19T19:26:17.532+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/06-trigger-dag.py for tasks to queue
+[2024-01-19T19:26:17.532+0000] {logging_mixin.py:137} INFO - [2024-01-19T19:26:17.532+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/06-trigger-dag.py
+[2024-01-19T19:26:17.541+0000] {processor.py:753} INFO - DAG(s) dict_keys(['triggerdagfailed']) retrieved from /opt/airflow/dags/06-trigger-dag.py
+[2024-01-19T19:26:17.553+0000] {logging_mixin.py:137} INFO - [2024-01-19T19:26:17.553+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-01-19T19:26:17.565+0000] {logging_mixin.py:137} INFO - [2024-01-19T19:26:17.565+0000] {dag.py:3441} INFO - Setting next_dagrun for triggerdagfailed to None, run_after=None
+[2024-01-19T19:26:17.572+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/06-trigger-dag.py took 0.043 seconds
+[2024-01-19T19:26:23.283+0000] {processor.py:153} INFO - Started process (PID=49834) to work on /opt/airflow/dags/06-trigger-dag.py
+[2024-01-19T19:26:23.284+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/06-trigger-dag.py for tasks to queue
+[2024-01-19T19:26:23.284+0000] {logging_mixin.py:137} INFO - [2024-01-19T19:26:23.284+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/06-trigger-dag.py
+[2024-01-19T19:26:23.293+0000] {processor.py:753} INFO - DAG(s) dict_keys(['triggerdagfailed']) retrieved from /opt/airflow/dags/06-trigger-dag.py
+[2024-01-19T19:26:23.307+0000] {logging_mixin.py:137} INFO - [2024-01-19T19:26:23.307+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-01-19T19:26:23.323+0000] {logging_mixin.py:137} INFO - [2024-01-19T19:26:23.323+0000] {dag.py:3441} INFO - Setting next_dagrun for triggerdagfailed to None, run_after=None
+[2024-01-19T19:26:23.333+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/06-trigger-dag.py took 0.052 seconds
+[2024-01-19T19:26:29.072+0000] {processor.py:153} INFO - Started process (PID=49859) to work on /opt/airflow/dags/06-trigger-dag.py
+[2024-01-19T19:26:29.073+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/06-trigger-dag.py for tasks to queue
+[2024-01-19T19:26:29.073+0000] {logging_mixin.py:137} INFO - [2024-01-19T19:26:29.073+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/06-trigger-dag.py
+[2024-01-19T19:26:29.082+0000] {processor.py:753} INFO - DAG(s) dict_keys(['triggerdagfailed']) retrieved from /opt/airflow/dags/06-trigger-dag.py
+[2024-01-19T19:26:29.095+0000] {logging_mixin.py:137} INFO - [2024-01-19T19:26:29.095+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-01-19T19:26:29.107+0000] {logging_mixin.py:137} INFO - [2024-01-19T19:26:29.107+0000] {dag.py:3441} INFO - Setting next_dagrun for triggerdagfailed to None, run_after=None
+[2024-01-19T19:26:29.114+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/06-trigger-dag.py took 0.045 seconds
+[2024-01-19T19:26:35.001+0000] {processor.py:153} INFO - Started process (PID=49900) to work on /opt/airflow/dags/06-trigger-dag.py
+[2024-01-19T19:26:35.002+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/06-trigger-dag.py for tasks to queue
+[2024-01-19T19:26:35.003+0000] {logging_mixin.py:137} INFO - [2024-01-19T19:26:35.003+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/06-trigger-dag.py
+[2024-01-19T19:26:35.013+0000] {processor.py:753} INFO - DAG(s) dict_keys(['triggerdagfailed']) retrieved from /opt/airflow/dags/06-trigger-dag.py
+[2024-01-19T19:26:35.035+0000] {logging_mixin.py:137} INFO - [2024-01-19T19:26:35.035+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-01-19T19:26:35.058+0000] {logging_mixin.py:137} INFO - [2024-01-19T19:26:35.058+0000] {dag.py:3441} INFO - Setting next_dagrun for triggerdagfailed to None, run_after=None
+[2024-01-19T19:26:35.068+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/06-trigger-dag.py took 0.069 seconds
+[2024-01-19T19:26:40.803+0000] {processor.py:153} INFO - Started process (PID=49925) to work on /opt/airflow/dags/06-trigger-dag.py
+[2024-01-19T19:26:40.803+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/06-trigger-dag.py for tasks to queue
+[2024-01-19T19:26:40.804+0000] {logging_mixin.py:137} INFO - [2024-01-19T19:26:40.804+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/06-trigger-dag.py
+[2024-01-19T19:26:40.822+0000] {processor.py:753} INFO - DAG(s) dict_keys(['triggerdagfailed']) retrieved from /opt/airflow/dags/06-trigger-dag.py
+[2024-01-19T19:26:40.843+0000] {logging_mixin.py:137} INFO - [2024-01-19T19:26:40.843+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-01-19T19:26:40.858+0000] {logging_mixin.py:137} INFO - [2024-01-19T19:26:40.858+0000] {dag.py:3441} INFO - Setting next_dagrun for triggerdagfailed to None, run_after=None
+[2024-01-19T19:26:40.866+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/06-trigger-dag.py took 0.067 seconds
+[2024-01-19T19:26:46.593+0000] {processor.py:153} INFO - Started process (PID=49966) to work on /opt/airflow/dags/06-trigger-dag.py
+[2024-01-19T19:26:46.594+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/06-trigger-dag.py for tasks to queue
+[2024-01-19T19:26:46.595+0000] {logging_mixin.py:137} INFO - [2024-01-19T19:26:46.595+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/06-trigger-dag.py
+[2024-01-19T19:26:46.609+0000] {processor.py:753} INFO - DAG(s) dict_keys(['triggerdagfailed']) retrieved from /opt/airflow/dags/06-trigger-dag.py
+[2024-01-19T19:26:46.633+0000] {logging_mixin.py:137} INFO - [2024-01-19T19:26:46.633+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-01-19T19:26:46.654+0000] {logging_mixin.py:137} INFO - [2024-01-19T19:26:46.653+0000] {dag.py:3441} INFO - Setting next_dagrun for triggerdagfailed to None, run_after=None
+[2024-01-19T19:26:46.669+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/06-trigger-dag.py took 0.078 seconds
+[2024-01-19T19:26:52.189+0000] {processor.py:153} INFO - Started process (PID=49991) to work on /opt/airflow/dags/06-trigger-dag.py
+[2024-01-19T19:26:52.189+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/06-trigger-dag.py for tasks to queue
+[2024-01-19T19:26:52.190+0000] {logging_mixin.py:137} INFO - [2024-01-19T19:26:52.190+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/06-trigger-dag.py
+[2024-01-19T19:26:52.198+0000] {processor.py:753} INFO - DAG(s) dict_keys(['triggerdagfailed']) retrieved from /opt/airflow/dags/06-trigger-dag.py
+[2024-01-19T19:26:52.210+0000] {logging_mixin.py:137} INFO - [2024-01-19T19:26:52.210+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-01-19T19:26:52.220+0000] {logging_mixin.py:137} INFO - [2024-01-19T19:26:52.220+0000] {dag.py:3441} INFO - Setting next_dagrun for triggerdagfailed to None, run_after=None
+[2024-01-19T19:26:52.227+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/06-trigger-dag.py took 0.040 seconds
+[2024-01-19T19:26:59.617+0000] {processor.py:153} INFO - Started process (PID=50032) to work on /opt/airflow/dags/06-trigger-dag.py
+[2024-01-19T19:26:59.618+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/06-trigger-dag.py for tasks to queue
+[2024-01-19T19:26:59.618+0000] {logging_mixin.py:137} INFO - [2024-01-19T19:26:59.618+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/06-trigger-dag.py
+[2024-01-19T19:26:59.627+0000] {processor.py:753} INFO - DAG(s) dict_keys(['triggerdagfailed']) retrieved from /opt/airflow/dags/06-trigger-dag.py
+[2024-01-19T19:26:59.639+0000] {logging_mixin.py:137} INFO - [2024-01-19T19:26:59.639+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-01-19T19:26:59.652+0000] {logging_mixin.py:137} INFO - [2024-01-19T19:26:59.651+0000] {dag.py:3441} INFO - Setting next_dagrun for triggerdagfailed to None, run_after=None
+[2024-01-19T19:26:59.660+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/06-trigger-dag.py took 0.045 seconds
+[2024-01-19T19:27:05.218+0000] {processor.py:153} INFO - Started process (PID=50057) to work on /opt/airflow/dags/06-trigger-dag.py
+[2024-01-19T19:27:05.218+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/06-trigger-dag.py for tasks to queue
+[2024-01-19T19:27:05.219+0000] {logging_mixin.py:137} INFO - [2024-01-19T19:27:05.219+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/06-trigger-dag.py
+[2024-01-19T19:27:05.228+0000] {processor.py:753} INFO - DAG(s) dict_keys(['triggerdagfailed']) retrieved from /opt/airflow/dags/06-trigger-dag.py
+[2024-01-19T19:27:05.240+0000] {logging_mixin.py:137} INFO - [2024-01-19T19:27:05.240+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-01-19T19:27:05.252+0000] {logging_mixin.py:137} INFO - [2024-01-19T19:27:05.252+0000] {dag.py:3441} INFO - Setting next_dagrun for triggerdagfailed to None, run_after=None
+[2024-01-19T19:27:05.260+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/06-trigger-dag.py took 0.044 seconds
+[2024-01-19T19:27:12.358+0000] {processor.py:153} INFO - Started process (PID=50099) to work on /opt/airflow/dags/06-trigger-dag.py
+[2024-01-19T19:27:12.359+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/06-trigger-dag.py for tasks to queue
+[2024-01-19T19:27:12.359+0000] {logging_mixin.py:137} INFO - [2024-01-19T19:27:12.359+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/06-trigger-dag.py
+[2024-01-19T19:27:12.368+0000] {processor.py:753} INFO - DAG(s) dict_keys(['triggerdagfailed']) retrieved from /opt/airflow/dags/06-trigger-dag.py
+[2024-01-19T19:27:12.382+0000] {logging_mixin.py:137} INFO - [2024-01-19T19:27:12.382+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-01-19T19:27:12.393+0000] {logging_mixin.py:137} INFO - [2024-01-19T19:27:12.393+0000] {dag.py:3441} INFO - Setting next_dagrun for triggerdagfailed to None, run_after=None
+[2024-01-19T19:27:12.400+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/06-trigger-dag.py took 0.043 seconds
+[2024-01-19T19:27:17.934+0000] {processor.py:153} INFO - Started process (PID=50124) to work on /opt/airflow/dags/06-trigger-dag.py
+[2024-01-19T19:27:17.934+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/06-trigger-dag.py for tasks to queue
+[2024-01-19T19:27:17.935+0000] {logging_mixin.py:137} INFO - [2024-01-19T19:27:17.935+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/06-trigger-dag.py
+[2024-01-19T19:27:17.943+0000] {processor.py:753} INFO - DAG(s) dict_keys(['triggerdagfailed']) retrieved from /opt/airflow/dags/06-trigger-dag.py
+[2024-01-19T19:27:17.955+0000] {logging_mixin.py:137} INFO - [2024-01-19T19:27:17.955+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-01-19T19:27:17.966+0000] {logging_mixin.py:137} INFO - [2024-01-19T19:27:17.966+0000] {dag.py:3441} INFO - Setting next_dagrun for triggerdagfailed to None, run_after=None
+[2024-01-19T19:27:17.973+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/06-trigger-dag.py took 0.041 seconds
+[2024-01-19T19:27:24.213+0000] {processor.py:153} INFO - Started process (PID=50165) to work on /opt/airflow/dags/06-trigger-dag.py
+[2024-01-19T19:27:24.213+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/06-trigger-dag.py for tasks to queue
+[2024-01-19T19:27:24.214+0000] {logging_mixin.py:137} INFO - [2024-01-19T19:27:24.214+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/06-trigger-dag.py
+[2024-01-19T19:27:24.226+0000] {processor.py:753} INFO - DAG(s) dict_keys(['triggerdagfailed']) retrieved from /opt/airflow/dags/06-trigger-dag.py
+[2024-01-19T19:27:24.240+0000] {logging_mixin.py:137} INFO - [2024-01-19T19:27:24.240+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-01-19T19:27:24.251+0000] {logging_mixin.py:137} INFO - [2024-01-19T19:27:24.251+0000] {dag.py:3441} INFO - Setting next_dagrun for triggerdagfailed to None, run_after=None
+[2024-01-19T19:27:24.259+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/06-trigger-dag.py took 0.049 seconds
+[2024-01-19T19:27:29.755+0000] {processor.py:153} INFO - Started process (PID=50190) to work on /opt/airflow/dags/06-trigger-dag.py
+[2024-01-19T19:27:29.756+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/06-trigger-dag.py for tasks to queue
+[2024-01-19T19:27:29.757+0000] {logging_mixin.py:137} INFO - [2024-01-19T19:27:29.756+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/06-trigger-dag.py
+[2024-01-19T19:27:29.769+0000] {processor.py:753} INFO - DAG(s) dict_keys(['triggerdagfailed']) retrieved from /opt/airflow/dags/06-trigger-dag.py
+[2024-01-19T19:27:29.799+0000] {logging_mixin.py:137} INFO - [2024-01-19T19:27:29.799+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-01-19T19:27:29.814+0000] {logging_mixin.py:137} INFO - [2024-01-19T19:27:29.814+0000] {dag.py:3441} INFO - Setting next_dagrun for triggerdagfailed to None, run_after=None
+[2024-01-19T19:27:29.823+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/06-trigger-dag.py took 0.070 seconds
+[2024-01-19T19:27:36.155+0000] {processor.py:153} INFO - Started process (PID=50231) to work on /opt/airflow/dags/06-trigger-dag.py
+[2024-01-19T19:27:36.155+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/06-trigger-dag.py for tasks to queue
+[2024-01-19T19:27:36.156+0000] {logging_mixin.py:137} INFO - [2024-01-19T19:27:36.156+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/06-trigger-dag.py
+[2024-01-19T19:27:36.165+0000] {processor.py:753} INFO - DAG(s) dict_keys(['triggerdagfailed']) retrieved from /opt/airflow/dags/06-trigger-dag.py
+[2024-01-19T19:27:36.178+0000] {logging_mixin.py:137} INFO - [2024-01-19T19:27:36.178+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-01-19T19:27:36.189+0000] {logging_mixin.py:137} INFO - [2024-01-19T19:27:36.189+0000] {dag.py:3441} INFO - Setting next_dagrun for triggerdagfailed to None, run_after=None
+[2024-01-19T19:27:36.197+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/06-trigger-dag.py took 0.044 seconds
+[2024-01-19T19:27:41.790+0000] {processor.py:153} INFO - Started process (PID=50256) to work on /opt/airflow/dags/06-trigger-dag.py
+[2024-01-19T19:27:41.790+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/06-trigger-dag.py for tasks to queue
+[2024-01-19T19:27:41.791+0000] {logging_mixin.py:137} INFO - [2024-01-19T19:27:41.790+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/06-trigger-dag.py
+[2024-01-19T19:27:41.800+0000] {processor.py:753} INFO - DAG(s) dict_keys(['triggerdagfailed']) retrieved from /opt/airflow/dags/06-trigger-dag.py
+[2024-01-19T19:27:41.814+0000] {logging_mixin.py:137} INFO - [2024-01-19T19:27:41.814+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-01-19T19:27:41.825+0000] {logging_mixin.py:137} INFO - [2024-01-19T19:27:41.825+0000] {dag.py:3441} INFO - Setting next_dagrun for triggerdagfailed to None, run_after=None
+[2024-01-19T19:27:41.832+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/06-trigger-dag.py took 0.045 seconds
+[2024-01-19T19:27:47.947+0000] {processor.py:153} INFO - Started process (PID=50297) to work on /opt/airflow/dags/06-trigger-dag.py
+[2024-01-19T19:27:47.948+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/06-trigger-dag.py for tasks to queue
+[2024-01-19T19:27:47.949+0000] {logging_mixin.py:137} INFO - [2024-01-19T19:27:47.949+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/06-trigger-dag.py
+[2024-01-19T19:27:47.962+0000] {processor.py:753} INFO - DAG(s) dict_keys(['triggerdagfailed']) retrieved from /opt/airflow/dags/06-trigger-dag.py
+[2024-01-19T19:27:47.982+0000] {logging_mixin.py:137} INFO - [2024-01-19T19:27:47.982+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-01-19T19:27:47.999+0000] {logging_mixin.py:137} INFO - [2024-01-19T19:27:47.999+0000] {dag.py:3441} INFO - Setting next_dagrun for triggerdagfailed to None, run_after=None
+[2024-01-19T19:27:48.011+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/06-trigger-dag.py took 0.067 seconds
+[2024-01-19T19:27:53.554+0000] {processor.py:153} INFO - Started process (PID=50322) to work on /opt/airflow/dags/06-trigger-dag.py
+[2024-01-19T19:27:53.555+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/06-trigger-dag.py for tasks to queue
+[2024-01-19T19:27:53.555+0000] {logging_mixin.py:137} INFO - [2024-01-19T19:27:53.555+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/06-trigger-dag.py
+[2024-01-19T19:27:53.568+0000] {processor.py:753} INFO - DAG(s) dict_keys(['triggerdagfailed']) retrieved from /opt/airflow/dags/06-trigger-dag.py
+[2024-01-19T19:27:53.581+0000] {logging_mixin.py:137} INFO - [2024-01-19T19:27:53.581+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-01-19T19:27:53.596+0000] {logging_mixin.py:137} INFO - [2024-01-19T19:27:53.596+0000] {dag.py:3441} INFO - Setting next_dagrun for triggerdagfailed to None, run_after=None
+[2024-01-19T19:27:53.604+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/06-trigger-dag.py took 0.052 seconds
+[2024-01-19T19:27:59.334+0000] {processor.py:153} INFO - Started process (PID=50363) to work on /opt/airflow/dags/06-trigger-dag.py
+[2024-01-19T19:27:59.334+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/06-trigger-dag.py for tasks to queue
+[2024-01-19T19:27:59.335+0000] {logging_mixin.py:137} INFO - [2024-01-19T19:27:59.335+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/06-trigger-dag.py
+[2024-01-19T19:27:59.346+0000] {processor.py:753} INFO - DAG(s) dict_keys(['triggerdagfailed']) retrieved from /opt/airflow/dags/06-trigger-dag.py
+[2024-01-19T19:27:59.361+0000] {logging_mixin.py:137} INFO - [2024-01-19T19:27:59.361+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-01-19T19:27:59.378+0000] {logging_mixin.py:137} INFO - [2024-01-19T19:27:59.377+0000] {dag.py:3441} INFO - Setting next_dagrun for triggerdagfailed to None, run_after=None
+[2024-01-19T19:27:59.387+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/06-trigger-dag.py took 0.055 seconds
+[2024-01-19T19:28:05.056+0000] {processor.py:153} INFO - Started process (PID=50388) to work on /opt/airflow/dags/06-trigger-dag.py
+[2024-01-19T19:28:05.057+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/06-trigger-dag.py for tasks to queue
+[2024-01-19T19:28:05.057+0000] {logging_mixin.py:137} INFO - [2024-01-19T19:28:05.057+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/06-trigger-dag.py
+[2024-01-19T19:28:05.066+0000] {processor.py:753} INFO - DAG(s) dict_keys(['triggerdagfailed']) retrieved from /opt/airflow/dags/06-trigger-dag.py
+[2024-01-19T19:28:05.079+0000] {logging_mixin.py:137} INFO - [2024-01-19T19:28:05.079+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-01-19T19:28:05.091+0000] {logging_mixin.py:137} INFO - [2024-01-19T19:28:05.090+0000] {dag.py:3441} INFO - Setting next_dagrun for triggerdagfailed to None, run_after=None
+[2024-01-19T19:28:05.099+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/06-trigger-dag.py took 0.045 seconds
+[2024-01-19T19:28:10.906+0000] {processor.py:153} INFO - Started process (PID=50429) to work on /opt/airflow/dags/06-trigger-dag.py
+[2024-01-19T19:28:10.907+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/06-trigger-dag.py for tasks to queue
+[2024-01-19T19:28:10.907+0000] {logging_mixin.py:137} INFO - [2024-01-19T19:28:10.907+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/06-trigger-dag.py
+[2024-01-19T19:28:10.917+0000] {processor.py:753} INFO - DAG(s) dict_keys(['triggerdagfailed']) retrieved from /opt/airflow/dags/06-trigger-dag.py
+[2024-01-19T19:28:10.932+0000] {logging_mixin.py:137} INFO - [2024-01-19T19:28:10.932+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-01-19T19:28:10.946+0000] {logging_mixin.py:137} INFO - [2024-01-19T19:28:10.946+0000] {dag.py:3441} INFO - Setting next_dagrun for triggerdagfailed to None, run_after=None
+[2024-01-19T19:28:10.961+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/06-trigger-dag.py took 0.057 seconds
+[2024-01-19T19:28:16.645+0000] {processor.py:153} INFO - Started process (PID=50454) to work on /opt/airflow/dags/06-trigger-dag.py
+[2024-01-19T19:28:16.646+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/06-trigger-dag.py for tasks to queue
+[2024-01-19T19:28:16.646+0000] {logging_mixin.py:137} INFO - [2024-01-19T19:28:16.646+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/06-trigger-dag.py
+[2024-01-19T19:28:16.655+0000] {processor.py:753} INFO - DAG(s) dict_keys(['triggerdagfailed']) retrieved from /opt/airflow/dags/06-trigger-dag.py
+[2024-01-19T19:28:16.668+0000] {logging_mixin.py:137} INFO - [2024-01-19T19:28:16.668+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-01-19T19:28:16.680+0000] {logging_mixin.py:137} INFO - [2024-01-19T19:28:16.680+0000] {dag.py:3441} INFO - Setting next_dagrun for triggerdagfailed to None, run_after=None
+[2024-01-19T19:28:16.688+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/06-trigger-dag.py took 0.044 seconds
+[2024-01-19T19:28:22.411+0000] {processor.py:153} INFO - Started process (PID=50495) to work on /opt/airflow/dags/06-trigger-dag.py
+[2024-01-19T19:28:22.412+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/06-trigger-dag.py for tasks to queue
+[2024-01-19T19:28:22.412+0000] {logging_mixin.py:137} INFO - [2024-01-19T19:28:22.412+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/06-trigger-dag.py
+[2024-01-19T19:28:22.422+0000] {processor.py:753} INFO - DAG(s) dict_keys(['triggerdagfailed']) retrieved from /opt/airflow/dags/06-trigger-dag.py
+[2024-01-19T19:28:22.437+0000] {logging_mixin.py:137} INFO - [2024-01-19T19:28:22.437+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2024-01-19T19:28:22.452+0000] {logging_mixin.py:137} INFO - [2024-01-19T19:28:22.452+0000] {dag.py:3441} INFO - Setting next_dagrun for triggerdagfailed to None, run_after=None
+[2024-01-19T19:28:22.462+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/06-trigger-dag.py took 0.053 seconds
