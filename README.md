@@ -62,6 +62,55 @@ O Airflow é escrito em Python e os fluxos de trabalho são criados por meio de 
 - @hourly
 
 ### xcom: troca de dados entre as tasks
-- ti (task instance): é um objeto que representa a instância da tarefa sendo executada.å
+- ti (task instance): é um objeto que representa a instância da tarefa sendo executada.
 - xcom_push(): é usada para definir o valor.
 - xcom_pull(): é usada para recuperar o valor. 
+
+### Variáveis:
+- Permitem armazenar e compartilhar informações entre DAGs.
+- Pode ser criada na UI ou na CLI
+
+### Variáveis VS XCom:
+- Variáveis: Informações estáticas e globais, usadas em todo o pipeline.
+- XCom: Informações dinâmicas; entre as tarefas.
+
+### Pools
+- Os pools são usados para gerenciar a concorrência e a alocação de recursos.
+- Exemplo: várias tarefas que precisam acessar o banco de dados.
+
+### Branchs
+- Muito comum um pipeline precisar seguir em direções diferentes de acordo com resultado de eventos:
+- - Caminhos para dados válidos e inválidos
+- - Diferentes testes de qualidade
+- - Encaminhar diferentes e-mails conforme o resultado da análise
+- - etc.
+
+### PythonOperator
+- Permite adicionar qualquer funcionalidade Python ao Airflow.
+- - Limpeza e tratamento de dados.
+- - Transformações, resumos.
+- - Extração de fontes diversas.
+- - Machine Learning
+
+### Datasets
+- Agendamento baseado em uma tarefa que atualiza um dataset
+- Dag Producer: atualiza dados
+- Dag Consumer: schedule=Dataset
+
+### Sensors
+- Aguarda um evento ou disponibilidade de um serviço.
+- Não executa nenhuma ação adicional. Por exemplo, verifica arquivo e outra task importa.
+
+#### Principais
+1. FileSensor: aguarda a existência ou a ausência de um arquivo em um caminho específico.
+2. HttpSensor: aguarda a disponibilidade de uma URL.
+3. S3KeySe[Title](http://localhost:8080/home)nsor: aguarda a existência ou a ausência de uma chave em um bucket S3.
+4. SqlSensor: aguarda a execução de uma consulta SQL em um banco de dados.
+
+#### Parametros
+1. poke_interval: define o intervalo de tempo entre as verificações do sensor.
+2. timeout: define o tempo máximo que o sensor pode esperar antes de atingir o tempo limite.
+3. soft_fail: especifica se o sensor deve falhar silenciosamente (retornando "False") ou gerar uma exceção quando atinge o tempo limite.
+4. mode: especifica o modo de operação do sensor ("reschedule" para agendar novamente a tarefa ou "poke" para continuar verificando até que a condição seja atendida).
+5. poke_on_failure: especifica se o sensor deve continuar verificando quando ocorre uma falha na verificação anterior.
+

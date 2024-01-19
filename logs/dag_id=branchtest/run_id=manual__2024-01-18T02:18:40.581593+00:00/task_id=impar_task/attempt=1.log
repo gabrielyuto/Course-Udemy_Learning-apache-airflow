@@ -1,0 +1,35 @@
+[2024-01-18T02:18:43.465+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: branchtest.impar_task manual__2024-01-18T02:18:40.581593+00:00 [queued]>
+[2024-01-18T02:18:43.472+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: branchtest.impar_task manual__2024-01-18T02:18:40.581593+00:00 [queued]>
+[2024-01-18T02:18:43.472+0000] {taskinstance.py:1279} INFO - 
+--------------------------------------------------------------------------------
+[2024-01-18T02:18:43.472+0000] {taskinstance.py:1280} INFO - Starting attempt 1 of 1
+[2024-01-18T02:18:43.472+0000] {taskinstance.py:1281} INFO - 
+--------------------------------------------------------------------------------
+[2024-01-18T02:18:43.479+0000] {taskinstance.py:1300} INFO - Executing <Task(BashOperator): impar_task> on 2024-01-18 02:18:40.581593+00:00
+[2024-01-18T02:18:43.482+0000] {standard_task_runner.py:55} INFO - Started process 24253 to run task
+[2024-01-18T02:18:43.485+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'branchtest', 'impar_task', 'manual__2024-01-18T02:18:40.581593+00:00', '--job-id', '91', '--raw', '--subdir', 'DAGS_FOLDER/18-branchs.py', '--cfg-path', '/tmp/tmp5t3gk2es']
+[2024-01-18T02:18:43.486+0000] {standard_task_runner.py:83} INFO - Job 91: Subtask impar_task
+[2024-01-18T02:18:43.518+0000] {task_command.py:388} INFO - Running <TaskInstance: branchtest.impar_task manual__2024-01-18T02:18:40.581593+00:00 [running]> on host 718831e78672
+[2024-01-18T02:18:43.566+0000] {taskinstance.py:1509} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=branchtest
+AIRFLOW_CTX_TASK_ID=impar_task
+AIRFLOW_CTX_EXECUTION_DATE=2024-01-18T02:18:40.581593+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2024-01-18T02:18:40.581593+00:00
+[2024-01-18T02:18:43.568+0000] {subprocess.py:63} INFO - Tmp dir root location: 
+ /tmp
+[2024-01-18T02:18:43.569+0000] {subprocess.py:75} INFO - Running command: ['/bin/bash', '-c', 'echo "Número Impar']
+[2024-01-18T02:18:43.582+0000] {subprocess.py:86} INFO - Output:
+[2024-01-18T02:18:43.590+0000] {subprocess.py:93} INFO - /bin/bash: -c: line 1: unexpected EOF while looking for matching `"'
+[2024-01-18T02:18:43.591+0000] {subprocess.py:93} INFO - /bin/bash: -c: line 2: syntax error: unexpected end of file
+[2024-01-18T02:18:43.591+0000] {subprocess.py:97} INFO - Command exited with return code 2
+[2024-01-18T02:18:43.600+0000] {taskinstance.py:1768} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/bash.py", line 197, in execute
+    f"Bash command failed. The command returned a non-zero exit code {result.exit_code}."
+airflow.exceptions.AirflowException: Bash command failed. The command returned a non-zero exit code 2.
+[2024-01-18T02:18:43.603+0000] {taskinstance.py:1323} INFO - Marking task as FAILED. dag_id=branchtest, task_id=impar_task, execution_date=20240118T021840, start_date=20240118T021843, end_date=20240118T021843
+[2024-01-18T02:18:43.612+0000] {standard_task_runner.py:105} ERROR - Failed to execute job 91 for task impar_task (Bash command failed. The command returned a non-zero exit code 2.; 24253)
+[2024-01-18T02:18:43.658+0000] {local_task_job.py:208} INFO - Task exited with return code 1
+[2024-01-18T02:18:43.667+0000] {taskinstance.py:2578} INFO - 0 downstream tasks scheduled from follow-on schedule check
