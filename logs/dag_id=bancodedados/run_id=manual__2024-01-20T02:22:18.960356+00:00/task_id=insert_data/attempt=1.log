@@ -1,0 +1,42 @@
+[2024-01-20T02:22:22.052+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: bancodedados.insert_data manual__2024-01-20T02:22:18.960356+00:00 [queued]>
+[2024-01-20T02:22:22.061+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: bancodedados.insert_data manual__2024-01-20T02:22:18.960356+00:00 [queued]>
+[2024-01-20T02:22:22.061+0000] {taskinstance.py:1279} INFO - 
+--------------------------------------------------------------------------------
+[2024-01-20T02:22:22.061+0000] {taskinstance.py:1280} INFO - Starting attempt 1 of 1
+[2024-01-20T02:22:22.061+0000] {taskinstance.py:1281} INFO - 
+--------------------------------------------------------------------------------
+[2024-01-20T02:22:22.070+0000] {taskinstance.py:1300} INFO - Executing <Task(PostgresOperator): insert_data> on 2024-01-20 02:22:18.960356+00:00
+[2024-01-20T02:22:22.078+0000] {standard_task_runner.py:55} INFO - Started process 49663 to run task
+[2024-01-20T02:22:22.085+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'bancodedados', 'insert_data', 'manual__2024-01-20T02:22:18.960356+00:00', '--job-id', '124', '--raw', '--subdir', 'DAGS_FOLDER/23-bancodedados.py', '--cfg-path', '/tmp/tmprgeljlfe']
+[2024-01-20T02:22:22.087+0000] {standard_task_runner.py:83} INFO - Job 124: Subtask insert_data
+[2024-01-20T02:22:22.127+0000] {task_command.py:388} INFO - Running <TaskInstance: bancodedados.insert_data manual__2024-01-20T02:22:18.960356+00:00 [running]> on host cb9489d15b76
+[2024-01-20T02:22:22.162+0000] {taskinstance.py:1509} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=bancodedados
+AIRFLOW_CTX_TASK_ID=insert_data
+AIRFLOW_CTX_EXECUTION_DATE=2024-01-20T02:22:18.960356+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2024-01-20T02:22:18.960356+00:00
+[2024-01-20T02:22:22.162+0000] {sql.py:254} INFO - Executing: insert into teste value(1);
+[2024-01-20T02:22:22.166+0000] {base.py:73} INFO - Using connection ID 'postgres' for task execution.
+[2024-01-20T02:22:22.297+0000] {base.py:73} INFO - Using connection ID 'postgres' for task execution.
+[2024-01-20T02:22:22.300+0000] {sql.py:375} INFO - Running statement: insert into teste value(1);, parameters: None
+[2024-01-20T02:22:22.302+0000] {taskinstance.py:1768} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/common/sql/operators/sql.py", line 266, in execute
+    **extra_kwargs,
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/common/sql/hooks/sql.py", line 349, in run
+    self._run_command(cur, sql_statement, parameters)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/common/sql/hooks/sql.py", line 380, in _run_command
+    cur.execute(sql_statement)
+psycopg2.errors.SyntaxError: syntax error at or near "value"
+LINE 1: insert into teste value(1);
+                          ^
+
+[2024-01-20T02:22:22.312+0000] {taskinstance.py:1323} INFO - Marking task as FAILED. dag_id=bancodedados, task_id=insert_data, execution_date=20240120T022218, start_date=20240120T022222, end_date=20240120T022222
+[2024-01-20T02:22:22.321+0000] {standard_task_runner.py:105} ERROR - Failed to execute job 124 for task insert_data (syntax error at or near "value"
+LINE 1: insert into teste value(1);
+                          ^
+; 49663)
+[2024-01-20T02:22:22.347+0000] {local_task_job.py:208} INFO - Task exited with return code 1
+[2024-01-20T02:22:22.363+0000] {taskinstance.py:2578} INFO - 0 downstream tasks scheduled from follow-on schedule check

@@ -114,3 +114,35 @@ O Airflow é escrito em Python e os fluxos de trabalho são criados por meio de 
 4. mode: especifica o modo de operação do sensor ("reschedule" para agendar novamente a tarefa ou "poke" para continuar verificando até que a condição seja atendida).
 5. poke_on_failure: especifica se o sensor deve continuar verificando quando ocorre uma falha na verificação anterior.
 
+### Providers
+- Modulos Python que estendem a funcionalidade do Airflow
+- Vários tipos: operators, sensors, hooks, etc.
+- Muitos já fazem parte do Airflow.
+- Podem ser instalados com PIP.
+- Exemplos: 
+- - apache-airflow-providers-postgres
+- - apache-airflow-providers-amazon
+- - apache-airflow-providers-google
+
+
+### Hooks
+- Para interação com sistemas externos, como Banco de dados.
+- Componentes de Baixo Nível: Mais complexidade, mais flexibilidade, controle granular.
+- Hooks são classes e não tasks!
+- PostgresOperator: encapsula o PostgresHook com pouquíssimo código.
+
+### Principais comandos para CLI
+- airflow dags list -> listar dags
+- airflow dags report -> lista as dags 
+- airflow dags list-jobs -> listar jobs
+- airflow dags next-execution <nome dag> -> mostra a próxima execução da dag
+- airflow dags list-runs -d <nome dag> -> lista as execuções da dag
+- airflow dags unpause <nome dag> -> controla se a dag fica ou nao pausada
+- airflow dags trigger <nome dag> -> dispara uma dag.
+- airflow tasks list <nome dag> -> lista as tasks de uma dag.
+- airflow tasks test <nome dag> <nome task> <data> -> testar uma task da dag.
+- airflow config list -> lista as configurações.
+- airflow pools list -> listar os pools
+- airflow connections list -> lista as conexões.
+- airflow variables list -> lista as variáveis.
+- airflow cheat-sheet -> mostrar todos os principais comandos.
