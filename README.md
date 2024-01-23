@@ -146,3 +146,34 @@ O Airflow é escrito em Python e os fluxos de trabalho são criados por meio de 
 - airflow connections list -> lista as conexões.
 - airflow variables list -> lista as variáveis.
 - airflow cheat-sheet -> mostrar todos os principais comandos.
+
+### Configurações
+- Arquivo airflow.cfg
+- docker-compose.yaml: "sobreescreve" airflow.cfg
+- Dividido em seções: core, webserver, scheduler.
+
+### Executers
+- Alocação de recursos: como e onde executar tarefas
+- Gerencia paralelismo
+- Gerencia dependências
+- Tratamento de falhas
+- Monitoramento, logs
+
+#### Tipos
+- CeleryExecutor: Execução distribuída em cluster
+- SequentialExecutor: Permite apenas execução sequencial
+- LocalExecuter: Permite execução em paralelo, mas somente local
+- KubernetesExecutor: Executa em ambientes Kubernetes
+
+
+### Plugins
+- Estende a funcionalidade do Airflow
+- Pode encapsular código para reutilização
+- Classe Python.
+- Construtor que herda BaseOperator
+- Método Execute.
+
+
+### PROJETO FINAL
+
+/Users/gabrielyuto/Desktop/projeto.png
